@@ -1,0 +1,54 @@
+.socials {
+  
+  &__section {
+    margin-top: 120px;
+    @media (max-width: 590px) {
+      display: none;
+    }
+  }
+
+  &__block {
+    margin-top: 60px;
+  }
+
+  &__row1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    @media (max-width: 1137px) {
+      justify-content: center;
+    }
+  }
+
+  &__row2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    position: relative;
+
+    &:hover {
+      opacity: 0.81;
+      transition: all .4s ease;
+      z-index: 111;
+    }
+
+    svg {
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      transition: all .4s ease;
+
+      &:hover {
+
+        transform: translate(-50%, -46%);
+        transition: all .4s ease;
+
+      }
+    }
+  }
+}

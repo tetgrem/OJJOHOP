@@ -1,0 +1,30 @@
+// Global SCSS-files imports
+ @import './vars';
+ @import './reset';
+ @import './global';
+
+// Sections or Pages SCSS-files imports
+ @import './header';
+ @import './form';
+ @import './breadcrumbs';
+ @import './footer';
+
+ @import './mainPage/menu';
+ @import './mainPage/salons';
+ @import './mainPage/articles';
+ @import './mainPage/socials';
+
+
+ @import './catalogPage/catalog';
+ @import './catalogPage/information_catalog';
+
+
+ @import './viewitemPage/viewitemblock';
+ @import './viewitemPage/alsolike';
+ @import './viewitemPage/description';
+
+
+
+
+// Libs
+// @import './libs/swiper';

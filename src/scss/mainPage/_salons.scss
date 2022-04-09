@@ -1,0 +1,67 @@
+.section {
+
+  &__salons {
+    background: url("../img/black--bg.png") center no-repeat;
+    text-align: center;
+    padding: 0 370px;
+    @media (max-width: $breakpoint1450) {
+      padding: 0 270px;
+    }
+    @media (max-width: $breakpoint1089) {
+      padding: 0 150px;
+    }
+    @media (max-width: $breakpoint768) {
+      padding: 0 50px;
+    }
+    
+    @media (max-width: $breakpoint480) {
+      padding: 0;
+    }
+    .salons__text {
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+      padding-top: 45px;
+      padding-bottom: 60px;
+      @media (max-width: $breakpoint480) {
+        padding-bottom: 30px;
+        font-size: 16px;
+      }
+    }
+
+    a{
+      display: inline-block;
+      margin-bottom: 100px;
+      padding: 15px 35px;
+      background: #FFFFFF;
+      border: 1px solid #333333;
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      align-items: center;
+      color: #333333;
+      transition: all .4s ease;
+
+
+      &:hover {
+        transform: scale3d(1.01, 1.01, 1);
+        transition: all .4s ease;
+        background-color: #333;
+        color: white;
+      }
+    }
+
+  }
+
+
+
+}

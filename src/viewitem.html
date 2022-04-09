@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viewitem.html</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="body__viewitem">
+<!-- Header -->
+@@include('./html/catalogPage/_header.html')
+
+
+<main>
+    @@include('./html/_breadcrumbs.html')
+    @@include('./html/viewitemPage/_viewitemblock.html')
+    @@include('./html/viewitemPage/_description.html')
+    @@include('./html/viewitemPage/_alsolike.html')
+</main>
+
+<!-- Footer -->
+@@include('./html/_form.html')
+@@include('./html/_footer.html')
+
+</body>
+<script src="./js/libs/jquery-3.6.0(lib).min.js"></script>
+<script src="./js/scripts.min.js"></script>
+
+
+</html>

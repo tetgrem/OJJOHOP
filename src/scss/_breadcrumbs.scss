@@ -1,0 +1,58 @@
+.breadcrumbs {
+
+  &__section {
+    margin-top: 60px;
+    text-align: center;
+
+    a {
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #333333;
+      margin: 0 15px;
+      border-bottom: 1px solid #333333;
+
+      &:hover {
+        border: none;
+      }
+
+      @media (max-width: $breakpoint665) {
+        display: none;
+      }
+
+      &.breadcrumbs__active {
+        border: none;
+      }
+
+      &.breadcrumbs__category {
+
+        @media (max-width: $breakpoint665) {
+          display: block;
+          border: none;
+          text-align: left;
+
+          &:before {
+            content: '←';
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+    span {
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #333333;
+      @media (max-width: $breakpoint665) {
+        display: none;
+      }
+    }
+
+  }
+
+
+}
